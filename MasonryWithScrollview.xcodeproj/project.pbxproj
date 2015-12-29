@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B043DFDE23873FCDE933F96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69888D6E8775C00FCF3D7C6 /* libPods.a */; };
+		A0BBCE891C3275D500CEE09D /* MasonryLearnController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BBCE881C3275D500CEE09D /* MasonryLearnController.m */; };
+		A0BBCE8D1C32806700CEE09D /* UIView+Masonry_CX.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BBCE8C1C32806700CEE09D /* UIView+Masonry_CX.m */; };
 		A0D2DF761C2BAA7B00D42550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2DF751C2BAA7B00D42550 /* main.m */; };
 		A0D2DF791C2BAA7C00D42550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2DF781C2BAA7C00D42550 /* AppDelegate.m */; };
 		A0D2DF7C1C2BAA7D00D42550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2DF7B1C2BAA7D00D42550 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		7AE3C5DDB97D1EC235811C74 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		862CC0C6EC6370A986297B7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0BBCE871C3275D500CEE09D /* MasonryLearnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryLearnController.h; sourceTree = "<group>"; };
+		A0BBCE881C3275D500CEE09D /* MasonryLearnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryLearnController.m; sourceTree = "<group>"; };
+		A0BBCE8B1C32806700CEE09D /* UIView+Masonry_CX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Masonry_CX.h"; sourceTree = "<group>"; };
+		A0BBCE8C1C32806700CEE09D /* UIView+Masonry_CX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Masonry_CX.m"; sourceTree = "<group>"; };
 		A0D2DF711C2BAA7A00D42550 /* MasonryWithScrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryWithScrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D2DF751C2BAA7B00D42550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0D2DF771C2BAA7B00D42550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +97,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0BBCE8A1C32803F00CEE09D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A0BBCE8B1C32806700CEE09D /* UIView+Masonry_CX.h */,
+				A0BBCE8C1C32806700CEE09D /* UIView+Masonry_CX.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		A0D2DF681C2BAA7A00D42550 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +131,13 @@
 		A0D2DF731C2BAA7A00D42550 /* MasonryWithScrollview */ = {
 			isa = PBXGroup;
 			children = (
+				A0BBCE8A1C32803F00CEE09D /* Category */,
 				A0D2DF771C2BAA7B00D42550 /* AppDelegate.h */,
 				A0D2DF781C2BAA7C00D42550 /* AppDelegate.m */,
 				A0D2DF7A1C2BAA7C00D42550 /* ViewController.h */,
 				A0D2DF7B1C2BAA7D00D42550 /* ViewController.m */,
+				A0BBCE871C3275D500CEE09D /* MasonryLearnController.h */,
+				A0BBCE881C3275D500CEE09D /* MasonryLearnController.m */,
 				A0D2DF7D1C2BAA7F00D42550 /* Main.storyboard */,
 				A0D2DF801C2BAA8000D42550 /* Assets.xcassets */,
 				A0D2DF821C2BAA8100D42550 /* LaunchScreen.storyboard */,
@@ -347,6 +365,8 @@
 			files = (
 				A0D2DF7C1C2BAA7D00D42550 /* ViewController.m in Sources */,
 				A0D2DF791C2BAA7C00D42550 /* AppDelegate.m in Sources */,
+				A0BBCE891C3275D500CEE09D /* MasonryLearnController.m in Sources */,
+				A0BBCE8D1C32806700CEE09D /* UIView+Masonry_CX.m in Sources */,
 				A0D2DF761C2BAA7B00D42550 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
